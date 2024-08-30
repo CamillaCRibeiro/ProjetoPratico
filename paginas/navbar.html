@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+    body{
+        background-color: #FAF9F8;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 10%;
+        font-family: "Lora", serif;
+    }
+    .links{
+        display: flex;
+        gap: 70px;
+        margin-right: 10%;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+    }
+    a:hover{
+        color: #c9bfb5;
+    }
+    .linha_gradiente{
+        background-image: linear-gradient(90deg, #c9bfb5, #ecdbcb);
+        background-repeat: no-repeat;
+        background-size: 0% 3px;
+        background-position: left bottom;
+        transition: background-size 500ms ease;
+        cursor:pointer;
+    }
+    .linha_gradiente:hover{
+        background-size: 100% 3px;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Portfolio</h2>
+        <div class="links">
+        <a href="../../../../../ADS/1_semestre/PGW/ProjetoPratico/index.php"><span class="linha_gradiente">HOME</span></a>
+        <a href="../../../../../ADS/1_semestre/PGW/ProjetoPratico/paginas/projetos.php"><span class="linha_gradiente">PROJETOS</span></a>
+        <a href="../../../../../ADS/1_semestre/PGW/ProjetoPratico/paginas/contato.php"><span class="linha_gradiente">CONTATO</span></a>
+        </div>
+    </header>
+</body>
+</html>

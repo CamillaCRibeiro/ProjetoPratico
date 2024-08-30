@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+body{
+    font-family: "Libre Caslon Display", serif;
+}
+h1{
+    text-align: center;
+    margin-top: 10%;
+    background-color: #E8E3DE;
+    padding: 25px 30px;
+    font-weight: 540;
+    letter-spacing: 1px;
+}
+.content{
+    text-align: center;
+    font-size: medium;
+    letter-spacing: 1px;
+}
+.redes{
+    text-align: center;
+    margin-top: 5%;
+}
+.icon{
+    font-size: 200%;
+
+}

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+body{
+    background-color: #FAF9F8;
+}
+.eu{
+    width: 90%;
+}
+.img_eu{
+    padding-left: 20%;
+    padding-top: 5%;
+}
+img{
+    box-shadow: -100px 50px #E8E3DE;
+}
+.principal{
+    display: flex;
+    justify-content: space-around;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-family: "Libre Caslon Display", serif;
+    font-weight: 400;
+    font-size: 300%;
+    letter-spacing: 1px;
+}
+p{
+    font-size: large;
+}
